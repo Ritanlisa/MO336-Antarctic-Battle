@@ -983,7 +983,7 @@ Projectile=InvisibleAG
 
 [Attacker_KeepAlive]
 Name=Owning this means not against with Forhen
-Armor=NAF
+Armor=Position
 Owner=Europeans,UnitedStates,Pacific
 Power=0
 Sight=0
