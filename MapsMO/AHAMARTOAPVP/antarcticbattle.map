@@ -12065,33 +12065,6 @@ Projectile=InvisibleAll
 [TechMissileSpecial]
 SW.Inhibitors=MODEV
 
-; [TemporalShieldWH]
-; Verses=3%,3%,3%,3%,3%,3%,3%,3%,3%,3%,3%
-; EMP.Cap=99999
-; ; CellSpread=255
-DetonateOnAllMapObjects=true
-; DetonateOnAllMapObjects.RequireVerses=true
-; ; DetonateOnAllMapObjects.Full=true
-; DetonateOnAllMapObjects.AffectTargets=units
-DetonateOnAllMapObjects.AffectsTarget=units
-; DetonateOnAllMapObjects.AffectHouses=owner
-DetonateOnAllMapObjects.AffectsHouse=owner
-; DetonateOnAllMapObjects.AffectTypes=HEPH
-; Versus.misc=0%
-; Conventional=false
-; EMP.Duration=99999
-; AffectsAllies=false
-; Versus.orcinx=3%
-; AffectsEnemies=true
-; PreventScatter=true
-; Sonar.Duration=99999
-; AttachEffect.Duration=99999
-; AttachEffect.Animation=SPHERE
-; DisableWeapons.Duration=99999
-; AttachEffect.ForceDecloak=true
-; AttachEffect.SpeedMultiplier=0
-; AttachEffect.FirepowerMultiplier=0
-
 [TimeFreezeWeap]
 ROF=15
 Range=255
@@ -38082,7 +38055,7 @@ SW.Warhead=TriggerWH
 SidebarPCX=paraicon.pcx
 EVA.Detected=none
 Money.Amount=50000
-RechargeTime=.010
+RechargeTime=.005
 SW.Deferment=0
 SW.ShowCameo=false
 CameoPriority=1
