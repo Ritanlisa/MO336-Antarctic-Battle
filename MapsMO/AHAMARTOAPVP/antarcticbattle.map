@@ -1917,7 +1917,8 @@ Prerequisite=NAHAND,NAINDP
 
 [ChaosTouchEffectWH]
 Anim=
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=infantry,units
@@ -1946,7 +1947,8 @@ Versus.sib_fin=3%
 [ChaosTouchWH]
 AnimList=
 Particle=
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=infantry,units
@@ -12062,6 +12064,7 @@ SW.Inhibitors=MODEV
 ; [TemporalShieldWH]
 ; Verses=3%,3%,3%,3%,3%,3%,3%,3%,3%,3%,3%
 ; EMP.Cap=99999
+; CellSpread=255
 ; DetonateOnAllMapObjects=true
 ; DetonateOnAllMapObjects.RequireVerses=true
 ; DetonateOnAllMapObjects.Full=true
@@ -19462,7 +19465,8 @@ FOETR136BLB-G=true
 [AlliedBaseTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -20519,7 +20523,8 @@ TiberiumDeathToVisceroid=false
 [BeaconTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -20886,7 +20891,8 @@ OmniFire.TurnToTarget=true
 [DefAllyTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -21079,7 +21085,8 @@ DisableableFromShell=false
 [DefParadoxTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=units
@@ -21103,7 +21110,8 @@ AttachEffect.PenetratesIronCurtain=true
 [DefSovTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -21393,7 +21401,8 @@ DisableableFromShell=false
 [DefenseTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -21742,7 +21751,8 @@ ShakeXlo=9
 ShakeYhi=9
 ShakeYlo=9
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -21768,7 +21778,8 @@ LaunchSW.DisplayMoney.Offset=0,0
 [DisProtectWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -29818,7 +29829,8 @@ DisableableFromShell=false
 [LibraTaggerDangerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=infantry
@@ -29842,7 +29854,8 @@ AttachEffect.PenetratesIronCurtain=true
 [LibraTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=infantry
@@ -30401,7 +30414,8 @@ DisableableFromShell=false
 [OffenAllyTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -30426,7 +30440,8 @@ AttachEffect.PenetratesIronCurtain=true
 [OffenParadoxTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=units
@@ -30450,7 +30465,8 @@ AttachEffect.PenetratesIronCurtain=true
 [OffenSovTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -31128,7 +31144,8 @@ DisableableFromShell=false
 [OffensiveTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -31806,7 +31823,8 @@ DisableableFromShell=false
 [ParadoxDowngradeWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=units
@@ -32490,7 +32508,8 @@ PlayerControl=false
 
 [PsychicStormWH2]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=infantry
@@ -32634,7 +32653,8 @@ DisableableFromShell=false
 [RadarJammerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=aircraft,buildings
@@ -32792,7 +32812,8 @@ DisableableFromShell=false
 [Sign_AgainstAWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -32842,7 +32863,8 @@ DisableableFromShell=false
 [Sign_AgainstEWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -32892,7 +32914,8 @@ DisableableFromShell=false
 [Sign_AgainstFWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -32942,7 +32965,8 @@ DisableableFromShell=false
 [Sign_AgainstSWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -32992,7 +33016,8 @@ DisableableFromShell=false
 [Sign_AlliedAWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -33042,7 +33067,8 @@ DisableableFromShell=false
 [Sign_AlliedEWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -33092,7 +33118,8 @@ DisableableFromShell=false
 [Sign_AlliedFWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -33142,7 +33169,8 @@ DisableableFromShell=false
 [Sign_AlliedSWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=buildings
@@ -37648,7 +37676,8 @@ FlashSidebarTabFrames=1
 Verses=3%,3%,3%,3%,3%,3%,3%,3%,3%,3%,3%
 EMP.Cap=15
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=aircraft,buildings,infantry,units
@@ -38402,7 +38431,8 @@ DisableableFromShell=false
 [VolkovTaggerWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=infantry
@@ -38602,7 +38632,8 @@ DisableableFromShell=false
 [YADYNAProtectHephWH]
 Verses=0%,0%,0%,0%,0%,0%,0%,0%,0%,0%,0%
 Malicious=false
-DetonateOnAllMapObjects=true
+CellSpread=255
+; DetonateOnAllMapObjects=true
 DetonateOnAllMapObjects.RequireVerses=true
 DetonateOnAllMapObjects.Full=true
 DetonateOnAllMapObjects.AffectsTarget=units
