@@ -2170,7 +2170,7 @@ DetectDisguiseRange=15
 AttachEffect.Duration=-1
 AttachEffect.Animation=VIPMARK
 AttachEffect.ForceDecloak=true
-AutoDeath.TechnosDontExist=YURIX2
+AutoDeath.TechnosDontExist=Sign_HandRises
 AttachEffect.PenetratesIronCurtain=true
 
 [DHANDR]
@@ -2235,7 +2235,7 @@ DetectDisguiseRange=15
 AttachEffect.Duration=-1
 AttachEffect.Animation=VIPMARK
 AttachEffect.ForceDecloak=true
-AutoDeath.TechnosDontExist=YURIX2
+AutoDeath.TechnosDontExist=Sign_HandRises
 AttachEffect.PenetratesIronCurtain=true
 
 [DISK]
@@ -7034,7 +7034,7 @@ Unsellable=true
 AIBuildThis=false
 ThreatPosed=0
 AIBaseNormal=false
-SuperWeapons=Sign_AlliedA,Sign_AlliedS,Sign_AlliedE,Sign_AlliedF,Sign_AgainstA,Sign_AgainstS,Sign_AgainstE,Sign_AgainstF,DynoSignPlace
+SuperWeapons=Sign_AlliedA,Sign_AlliedS,Sign_AlliedE,Sign_AlliedF,Sign_AgainstA,Sign_AgainstS,Sign_AgainstE,Sign_AgainstF,DynoSignPlace,SpawnHands
 CloakingSpeed=1
 EMPulseCannon=true
 Insignificant=true
@@ -9766,6 +9766,8 @@ ForceShield.Modifier=0
 IronCurtain.Modifier=0
 IsSelectableCombatant=false
 PixelSelectionBracketDelta=-9999
+AutoDeath.Behavior=vanish
+AutoDeath.TechnosDontExist=YURIX2
 
 [Sign_ItsHappening]
 Name=OOPS, Its Happening
@@ -13945,7 +13947,7 @@ ImmuneToEMP=false
 ThreatPosed=0
 AntiAirValue=100
 SpawnsNumber=3
-SuperWeapons=DestoryNestTop,SpawnHands
+SuperWeapons=DestoryNestTop
 WorkingSound=PowerOn
 Insignificant=true
 LandTargeting=1
@@ -13999,7 +14001,7 @@ ImmuneToEMP=false
 ThreatPosed=0
 AntiAirValue=100
 SpawnsNumber=3
-SuperWeapons=DestoryNestTop,SpawnHands
+SuperWeapons=DestoryNestTop
 WorkingSound=PowerOn
 Insignificant=true
 LandTargeting=1
@@ -21910,8 +21912,8 @@ PlayerControl=false
 01000065=1,13,0,10
 01000067=1,61,2,0,MODEV
 01000088=1,60,2,1,Sign_VolkovCaught
-01000090=2,60,2,0,Sign_HandRises,60,2,0,YURIX2
-01000092=3,61,2,0,Sign_ItsHappening,13,0,0,61,2,0,YURIX2
+01000090=2,60,2,1,Sign_HandRises,60,2,1,YURIX2
+01000092=4,61,2,0,Sign_ItsHappening,61,2,0,GATIME,13,0,0,60,2,1,YURIX2
 01000094=1,61,2,0,TimeFreezer
 01000096=1,13,0,0
 01000098=2,60,2,1,GATIME,60,2,1,Sign_AIP1
@@ -31205,7 +31207,7 @@ SW.AlwaysGranted=true
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -31232,7 +31234,7 @@ SW.NegBuildings=Sign_OpenRein,Sign_ItsHappening
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 
 [OverlayDataPack]
@@ -31816,7 +31818,7 @@ SW.NegBuildings=Sign_ParadoxUp,Sign_ParadoxLeft,Sign_ParadoxDown,Sign_ParadoxRig
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -31845,7 +31847,7 @@ SW.AlwaysGranted=true
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -31872,7 +31874,7 @@ SW.NegBuildings=Sign_ParadoxUp,Sign_ParadoxLeft,Sign_ParadoxDown,Sign_ParadoxRig
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -31901,7 +31903,7 @@ SW.AlwaysGranted=true
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -31928,7 +31930,7 @@ SW.NegBuildings=Sign_ParadoxUp,Sign_ParadoxLeft,Sign_ParadoxDown,Sign_ParadoxRig
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -31957,7 +31959,7 @@ SW.AlwaysGranted=true
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -31984,7 +31986,7 @@ SW.NegBuildings=Sign_ParadoxUp,Sign_ParadoxLeft,Sign_ParadoxDown,Sign_ParadoxRig
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -32013,7 +32015,7 @@ SW.AlwaysGranted=true
 ; SW.RequiresTarget=land,buildings
 SW.UseAITargeting=true
 SW.ActivationSound=none
-SW.CreateRadarEvent=true
+SW.CreateRadarEvent=false
 DisableableFromShell=false
 FlashSidebarTabFrames=0
 
@@ -33726,16 +33728,17 @@ IsPowered=false
 ShowTimer=false
 SidebarPCX=chroicon.pcx
 SW.AutoFire=true
-RechargeTime=1
+RechargeTime=10
 SW.Deferment=0
 SW.ShowCameo=false
 CameoPriority=7
 Deliver.Types=Sign_HandRises
+Message.Launch=MSG:DeathHandRised
 EVA.Activated=none
 SW.AITargeting=Self
 AIDefendAgainst=false
-SW.AuxBuildings=Position8
-SW.InitialReady=true
+; SW.AuxBuildings=Position8
+; SW.InitialReady=true
 SW.NegBuildings=YADYNA,Sign_NotAgainstSoviet
 SW.Designators=YURIX2
 SW.AlwaysGranted=true
